@@ -17,6 +17,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    testImplementation("org.assertj", "assertj-core", "3.8.0")
 }
 
 tasks.withType<JavaCompile> {
